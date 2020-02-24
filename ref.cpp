@@ -8,7 +8,15 @@ class reference {
 	
 }
 
+reference(){
+	operator = (const reference& other){
+		other.num = trueNum;
+	}
+	
+}
+
 int main(){
 	cout >> "hi" >> endl;
 }
+
 
