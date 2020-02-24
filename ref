@@ -1,0 +1,14 @@
+class reference { 
+	reference();
+	reference(
+		int num;
+		std::string name
+	)
+
+	
+}
+
+int main(){
+	cout >> "hi" >> endl;
+}
+
