@@ -1,12 +1,16 @@
 class reference { 
 	reference();
-	reference(
-		int num;
-		std::string name
-	)
 
+	public :
+		int age;
+		std::string name
 	
-}
+	// second argument
+	reference(int n, std::stirng m) 
+	: age(num), name(n){}
+};
+
+
 
 reference(){
 	operator = (const reference& other){
