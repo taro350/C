@@ -1,3 +1,7 @@
+// Every time you execute, it'll work and will get Segmentation Fault every now and then.
+// g++ -Wall -pthread multithread_example.cpp -o multithread_example.o
+
+
 #include <string>
 #include <iostream>
 #include <stdio.h>
